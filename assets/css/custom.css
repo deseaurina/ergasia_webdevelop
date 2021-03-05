@@ -2,6 +2,30 @@
     border: 1px solid red;
 }
 
+body {
+    font-family:'Nunito Rg';
+}
 .bg-black {
     background-color: rgb(8, 4, 26);
+}
+
+.hero-text {
+    height: 80vh;
+}
+
+.hero-text h1 {
+    font-size: 5rem;
+    font-family:'Nunito Bl';
+    letter-spacing: .1rem; 
+    color: #fff;  
+}
+
+.hero-text p {
+    font-size: 2.5rem;
+    letter-spacing: .15rem;
+}
+
+section.hero {
+    background: url(../img/hero_01.jpg) no-repeat center center;
+    background-size: cover;
 }
