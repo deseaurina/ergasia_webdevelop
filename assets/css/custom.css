@@ -9,8 +9,18 @@ body, html {
 }
 
 h2 {
+    font-family: 'Nunito ExtraBold';
+    font-size: 2.8125rem;
+}
+
+h3 {
     font-family: 'Nunito Bold';
     font-size: 2.5rem;
+}
+
+hr {
+    width: 100px;
+    border-top: 3px solid #ba9191;
 }
 
 /*Header Styles*/
@@ -34,7 +44,7 @@ section.hero h1 {
 
 /*Section About Styles*/
 section.about {
-    height: 100vh;
+    height: auto;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,112,125,1) 0%, rgba(103,112,125,1) 37%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%);
 }
@@ -61,4 +71,52 @@ section.about p {
     font-family: 'Nunito Rg';
     font-size: 1rem;
     letter-spacing: .05rem;
+}
+
+/*Section Services Styles*/
+section.services {
+    height: auto;
+    background: #e9f0f4;
+}
+
+section.services h2 {
+    padding: 5rem 0 .5rem 0;
+}
+
+section.services .card {
+    background-color: #e6e6e6;
+    margin: 1rem;
+}
+
+section.services .card-footer {
+    background-color: transparent;
+    border-top: 0px;
+}
+
+/*Section Portfolio Styles */ 
+section.portfolio {
+    height: auto;
+    background: #e9f0f4;
+}
+
+section.portfolio h2 {
+    padding: 5rem 0 .5rem 0;
+}
+
+section.portfolio .card {
+    display: inline-block;
+    margin: 1rem;
+    padding: 10px;
+}
+
+/*Footer Styles*/
+footer {
+    min-height: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,112,125,1) 0%, rgba(103,112,125,1) 37%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    flex: 1 0 auto;
+    flex-shrink: none;
 }
