@@ -2,32 +2,63 @@
     border: 1px solid red;
 }
 
+/*Common Styles*/
 body, html {
     font-family:'Nunito Rg';
     height: 100%;
 }
+
+h2 {
+    font-family: 'Nunito Bold';
+    font-size: 2.5rem;
+}
+
+/*Header Styles*/
 .bg-black {
     background-color: rgb(8, 4, 26);
 }
 
-.hero-text {
-    height: 100vh;
-}
-
-section.hero h1 {
-    font-size: 5rem;
-    font-family:'Nunito Bl';
-    letter-spacing: .1rem; 
-    color: #fff; 
-}
-
-.hero-text p {
-    font-size: 2.5rem;
-    letter-spacing: .15rem;
-}
-
+/*Section Hero Styles*/
 section.hero {
     background: url(../img/hero_01.jpg) no-repeat center center;
     background-size: cover;
     height: 80vh;
+}
+
+section.hero h1 {
+    font-size: 5rem;
+    font-family:'Nunito Bold';
+    letter-spacing: .1rem; 
+    color: #fff; 
+}
+
+/*Section About Styles*/
+section.about {
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,112,125,1) 0%, rgba(103,112,125,1) 37%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%);
+}
+
+section.about .image_wrapper{
+    background-color: white;
+    box-shadow: 22px 21px 4px -17px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 22px 21px 4px -17px rgba(0,0,0,0.45);
+    -moz-box-shadow: 22px 21px 4px -17px rgba(0,0,0,0.45);
+    width: 70vh;
+}
+
+section.about .image_wrapper img {
+    padding: .75rem;
+}
+
+section.about span {
+    font-family: 'Nunito SemiBold';
+    font-size: 1.125rem;
+    letter-spacing: .05rem;
+}
+
+section.about p {
+    font-family: 'Nunito Rg';
+    font-size: 1rem;
+    letter-spacing: .05rem;
 }
